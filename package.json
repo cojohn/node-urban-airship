@@ -2,7 +2,7 @@
     "author": "Christopher John <cojohn@gmail.com>",
     "name": "urban-airship",
     "description": "Urban Airship API wrapper.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "repository": {
       "type": "git",
       "url": "git://github.com/cojohn/node-urban-airship.git"
