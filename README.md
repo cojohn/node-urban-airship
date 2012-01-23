@@ -18,7 +18,7 @@ Sample API Calls
 
 1. Register a device
 
-	ua.registerDevice("<token>", function(error) {...});
+	ua.registerDevice("< token >", function(error) {...});
 
 2. Create payloads for the push notification API needed.
 
@@ -59,7 +59,7 @@ Sample API Calls
 
 3. Unregister a device.
 
-	ua.unregisterDevice("<token>", function(error) {....});
+	ua.unregisterDevice("< token >", function(error) {....});
 
 
 
