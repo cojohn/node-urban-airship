@@ -28,7 +28,6 @@ var payload1 = {
 	]
 };
 
-
 ua.pushNotification("/api/push/broadcast/", payload1, function(error) {
 });
 

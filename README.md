@@ -34,8 +34,8 @@ Sample API Calls
 			The device or device ids to send the message to
 			],
 			"aps": {
-				"alert": alert,
-				"badge": badge
+				"alert": "Calling Urban Airship!",
+				"badge": 2
 			}
 		};
 
