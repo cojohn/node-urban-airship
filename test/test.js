@@ -10,7 +10,7 @@ var payload0 = {
 };
 
 ua.registerDevice("<token>", function(error) {
-	ua.pushNotification("/api/push", payload0, function(error) {
+	ua.pushNotification("/api/push/", payload0, function(error) {
 		ua.unregisterDevice("<token>", function(error) {
 
 		});

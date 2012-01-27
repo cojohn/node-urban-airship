@@ -27,7 +27,7 @@ Sample API Calls
 
 	Push Notification Examples: 
 
-		a)	"/api/push"
+		a)	"/api/push/"
 
 		var payload0 = {
 			"device_tokens": [
