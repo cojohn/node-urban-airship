@@ -1,19 +1,21 @@
 {
-    "author": "Christopher John <cojohn@gmail.com>",
+  "author": "Christopher John <cojohn@gmail.com>",
 	"contributors": [ 
-    	{"name": "Christopher John", "github": "cojohn", "email": "cojohn@gmail.com"},
-		{"name": "Dave Winders", "github": "daithiw44"}
+    {"name": "Christopher John", "github": "cojohn", "email": "cojohn@gmail.com"},
+		{"name": "Dave Winders", "github": "daithiw44"},
+    {"name": "Roberto Hidalgo", "github": "unRob"}
 	],
-    "name": "urban-airship",
-    "description": "Urban Airship API wrapper.",
-    "version": "0.2.5",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/cojohn/node-urban-airship.git"
-    },
-    "keywords": ["Urban Airship", "iPhone", "iOS", "notification", "push", "api"],
-    "main": "./index",
-    "engines": {
-      "node": ">= 0.4.10"
-    }
+  "name": "urban-airship",
+  "description": "Urban Airship API wrapper.",
+  "version": "0.3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cojohn/node-urban-airship.git"
+  },
+  "keywords": ["Urban Airship", "iPhone", "iOS", "Android", "notification", "push", "api"],
+  "license": "MIT",
+  "main": "./index",
+  "engines": {
+    "node": ">= 0.4.10"
+  }
 }
