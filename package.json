@@ -3,11 +3,12 @@
 	"contributors": [ 
     {"name": "Christopher John", "github": "cojohn", "email": "cojohn@gmail.com"},
 		{"name": "Dave Winders", "github": "daithiw44"},
-    {"name": "Roberto Hidalgo", "github": "unRob"}
+    {"name": "Roberto Hidalgo", "github": "unRob"},
+    {"name": "Michael Bell", "github": "mbell8903"}
 	],
   "name": "urban-airship",
   "description": "Urban Airship API wrapper.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/cojohn/node-urban-airship.git"

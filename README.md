@@ -1,18 +1,21 @@
 #node-urban-airship
 
+[![NPM version](https://badge.fury.io/js/urban-airship.png)](http://badge.fury.io/js/urban-airship)
+
 Simple wrapper for the Urban Airship API.
 
-How to use:
+##Installation
 
+```sh
 npm install urban-airship
+```
 
-Reference the module: require("urban-airship") 
+```javascript
+var UA = require("urban-airship");
+var ua = new UA("<api key>", "<api secret key>", "<api master key>");
+```
 
-Authenticate with Urban Airship.
-
-	ua = new UA("<api key>", "<api secret key>", "<api master key>");
-
-Use Node-Urban-Airship.
+##Usage
 
 Sample API Calls
 
