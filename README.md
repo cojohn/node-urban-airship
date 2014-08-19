@@ -28,37 +28,37 @@ Sample API Calls
 	Information available here.
 	http://urbanairship.com/docs/push.html
 
-	Push Notification Examples: 
+	Push Notification Examples (API v3): 
 
 		a)	"/api/push/"
 
-		var payload0 = {
-			"device_tokens": [
-			The device or device ids to send the message to
-			],
-			"aps": {
-				"alert": "Calling Urban Airship!",
-				"badge": 2
-			}
-		};
+                var payload0 = {
+                  "audience": {
+                    "device_token": A single device token identifier
+                  },
+                  "notification": {
+                          "ios": { specific options for iOS devices},
+                          "android": { specific options for Android devices},
+			  "alert": "The push text to send to devices"
+                  },
+                  "device_types" : "all"
+                };
 
 		ua.pushNotification("/api/push", payload0, function(error) {....});
 
-		b) "/api/push/broadcast/"
+		b) "/api/push/"
 
-		var payload1 = {
-			"aps": {
-				 "badge": 15,
-				 "alert": "Calling Urban Airship!",
-				 "sound": "cat.caf"
-			},
-			"exclude_tokens": [
-				"device token you want to skip",
-				"another device token you want to skip"
-			]
-		};
+                var payload0 = {
+                  "audience": "all",
+                  "notification": {
+                          "ios": { specific options for iOS devices},
+                          "android": { specific options for Android devices},
+			  "alert": "The push text to send to devices"
+                  },
+                  "device_types" : "all"
+                };
 
-		ua.pushNotification("/api/push/broadcast/", payload1, function(error) {.....});
+		ua.pushNotification("/api/push/", payload1, function(error) {.....});
 
 3. Unregister a device.
 
