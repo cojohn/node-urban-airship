@@ -1,6 +1,7 @@
 #node-urban-airship
 
 [![NPM version](https://badge.fury.io/js/urban-airship.png)](http://badge.fury.io/js/urban-airship)
+[![Build Status](https://travis-ci.org/cojohn/node-urban-airship.svg?branch=master)](https://travis-ci.org/cojohn/node-urban-airship)
 
 Simple wrapper for the Urban Airship API.
 
@@ -13,6 +14,14 @@ npm install urban-airship
 ```javascript
 var UA = require("urban-airship");
 var ua = new UA("<api key>", "<api secret key>", "<api master key>");
+```
+
+##Testing
+
+Tests use the `mocha` library listed in `devDependencies`.
+
+```sh
+npm test
 ```
 
 ##Usage
