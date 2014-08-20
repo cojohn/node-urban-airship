@@ -4,19 +4,26 @@
     {"name": "Christopher John", "github": "cojohn", "email": "cojohn@gmail.com"},
 		{"name": "Dave Winders", "github": "daithiw44"},
     {"name": "Roberto Hidalgo", "github": "unRob"},
-    {"name": "Michael Bell", "github": "mbell8903"}
+    {"name": "Michael Bell", "github": "mbell8903"},
+    {"name": "Stefano", "github": "stefkohub"}
 	],
   "name": "urban-airship",
   "description": "Urban Airship API wrapper.",
-  "version": "0.4.0",
+  "version": "0.4.1",
+  "devDependencies": {
+    "mocha": "x.x.x"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/cojohn/node-urban-airship.git"
   },
-  "keywords": ["Urban Airship", "iPhone", "iOS", "Android", "notification", "push", "api"],
+  "keywords": ["Urban Airship", "iPhone", "iOS", "Android", "notification", "push", "api", "Urban", "Airship", "UA"],
   "license": "MIT",
   "main": "./index",
   "engines": {
     "node": ">= 0.4.10"
+  },  
+  "scripts": {
+    "test": "mocha -u tdd --timeout 6500"
   }
 }
